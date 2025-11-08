@@ -50,7 +50,12 @@ padding-right: 5px;
 }
 @media (max-width: 768px) {
   .hamburger {
-    display: block;
+    display: flex;
+    position: static;
+    max-height: none;
+    flex-direction: row;
+    gap: 20px;
+    
   }
 }
 .nav-links li a {
