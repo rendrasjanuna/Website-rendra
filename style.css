@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: Sans-Serif;
+  background: yellow;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.login.container {
+  background: purple;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  width: 300px;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: purple;
+  font-family: Comic Sans MS;
+  font-size: 30px;
+  font-style: oblique;
+}
+.input-group {
+  margin-bottom: 5px;
+}
+label {
+  display: block;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+button {
+  width: 100%;
+  padding: 10px;
+  background: green;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+button:hover {
+  background: orange;
+  
+}
