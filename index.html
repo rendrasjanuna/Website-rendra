@@ -4,31 +4,93 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Login Page</title>
+  <title>Portofolio - Rendra Safrudin Januna</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body class="login-page">
-  
-  <div class"login-container">
-    <h2>Login</h2>
-    <form id="loginForm">
-      <div class="input-group">
-        <label for="username">Username</label>
-        <input type="text" id="username" placeholder="Enter Username" required>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <img src="rendra.jpg" alt="foto rendra" class="avatar">
+      <div class="hero-text">
+        <h1>Rendra Safrudin Januna</h1>
+        <p class="role">Backend Developer • Python | Flask | REST API</p>
+        <p class="lead">
+          Saya sedang membangun API dan sistem web sederhana. Fokus pada
+          praktik langsung: CRUD, autentikasi, dan deployment ringan
+        </p>
+        <div class="hero-octa">
+          <a class="btn primary" href="#projects">lihat proyek</a>
+          <a class="btn ghost" href="#contact">hubungi</a>
+        </div>
       </div>
-      
-      <div class="input-group">
-        <label for="password">Password</label>
-        <input type="password" id="password" placeholder="Enter Password" required>
+    </div>
+  </header>
+  
+  <main>
+    <section id="about" class="card center">
+      <h2>Tentang saya</h2>
+      <p>
+        Saya belajar dan membangun proyek backend menggunakan Python dan Flask
+        Saat ini fokus membuat API yang bersih, endpoint yang terdokumentasi, dan
+        autentikasi sederhana. saya suka menyelasaikan masalah melalui kode
+      </p>
+    </section>
+    
+    <section id="skill" class="card">
+      <h2>Keahlian</h2>
+      <ul class="skill-list">
+        <li>Python (flask)</li>
+        <li>REST API & JSON</li>
+        <li>HTTP, JSON, Postman</li>
+        <li>Basic SQL (SQLite/MYSQL)</li>
+        <li>git & Github</li>
+        <li>HTML & CSS</li>
+      </ul>
+    </section>
+    
+    <section id="projects" class="card">
+      <h2>Proyek</h2>
+      <div class="projects-grid">
+        <article class="project">
+          <h3>API Product (Flask)</h3>
+          <p>CRUD produk dengan endpoint yang jelas, validasi input dan response konsisten</p>
+          <p class="meta">Tech : Python, Flask dan SQL</p>
+        </article>
+        
+        <article class="project">
+          <h3>Sistem login & Session</h3>
+          <p>Login sederhana, Validasi user dan redirect aman. cocok untuk belajar autentikasi</p>
+          <p class="meta">Tech : HTML, JS dan Flask</p>
+        </article>
+        
+        <article class="project">
+          <h3>Website Portofolio</h3>
+          <p>Portofio statis yang rensponsif - fokus pada presentasi proyek dan kontak</p>
+          <p class="meta">Tech : HTML Dan CSS</p>
+        </article>
       </div>
-      
-      <button type="submit">Login</button>
-    </form>
-    <p id="loginMessage"></p>
-  </div>
+    </section>
+    
+    <section id="education" class="card">
+      <h2>Pendidikan</h2>
+      <ul class="edu-list">
+      <li><strong>2012 - 2015</strong> - SMKN 01 Kandeman (Teknik Elektronika Industri)</li>
+      <li><strong>2009 - 2012</strong> SMPN 06 Batang</li>
+      <li><strong>2003 - 2009</strong> SDN 05 Kasepuhan</li>
+      </ul>
+    </section>
+    
+    <section id="contact" class="card center">
+      <h2>Contact</h2>
+      <p>Email : <a href="mailto:rendrasjanuna@gmail.com">rendrasjanuna@gmail.com</a></p>
+      <p>Github : <a href="https://github.com/rendrasjanuna" target="blank" rel="noopener">github.com/rendrasjanuna</a></p>
+      <p>Whatsapps : <a href="https://wa.me/+6285715624983" target="blank" rel="noopener">0857-1562-4983</a></p>
+    </section>
+  </main>
   
+  <footer class="site-footer">
+    <p>©2025 rendra safrudin januna</p>
+  </footer>
   
-  
-<script src="script.js"></script>  
 </body>
-</html>
+</html
